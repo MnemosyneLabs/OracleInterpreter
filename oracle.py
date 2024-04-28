@@ -206,6 +206,7 @@ class OracleInterpreter:
         
         # Example command for browser search
         # self.interpreter.computer.browser.search(f" ")
+        # Is this correct? Nobody knows
         
         self.interpreter.auto_run = True
 
