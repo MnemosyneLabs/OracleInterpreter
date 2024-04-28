@@ -9,7 +9,10 @@ import logging
 from dotenv import load_dotenv
 import openai
 import anthropic
+import interpreter as intp
 from interpreter import interpreter
+from interpreter.core import computer
+from interpreter.core.computer import browser
 import subprocess
 import threading
 import signal
@@ -204,6 +207,9 @@ class OracleInterpreter:
         self.interpreter.os = True
         
         
+        self.interpreter.computer = computer
+        self.interpreter.computer.browser = browser
+        
         # Example command for browser search
         # self.interpreter.computer.browser.search(f" ")
         # Is this correct? Nobody knows
@@ -337,7 +343,7 @@ class OracleInterpreter:
 
         To use the web browser, the command is:
         
-        computer.browser.search("search query")
+        self.interpreter.computer.browser.search("search query")
         
         Where you reply "search query" with your actual search query, or the URL itself.
         
@@ -378,12 +384,12 @@ class OracleInterpreter:
 
         Additionally you have the ability to perform web searches directly from the interpreter. To invoke a web search, use the following command:
 
-        computer.browser.search("search query")
+        self.interpreter.computer.browser.search("search query")
         
 
         Replace "search query" with the actual query you want to search for. For example:
 
-        self.interpreter.computer.browser.search("upcoming film festivals near Pike Place, Seattle")
+       self.interpreter.computer.browser.search("upcoming film festivals near Pike Place, Seattle")
 
         When a web search is requested using this command, the interpreter will handle the search and provide you with the relevant information. You can then analyze and summarize the information to provide a helpful response to the user.
 
@@ -483,7 +489,7 @@ class OracleInterpreter:
                 response_text = f"Here are the results of the Google Custom Search for '{search_query}':\n\n{search_results}"
             
             # Check if the message contains a web browsing request
-            elif "self.interpreter.computer.browser.search(" in message:
+            elif "computer.browser.search(" in message:
                 # Extract the search query from the message
                 search_query = re.findall(r'self\.interpreter\.computer\.browser\.search\("(.+?)"\)', message)[0]
                 
