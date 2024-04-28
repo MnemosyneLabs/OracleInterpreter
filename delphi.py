@@ -259,7 +259,7 @@ class OracleGUI:
         settings_frame.pack(fill='both', expand=True)
 
 
-        # Create the LLM-first Web Browser toggle button
+        # Create the LLM Web Browser toggle button
         llm_web_browser_label = Label(settings_frame, text="OS Mode (Enables Web Browser):")
         llm_web_browser_label.pack(pady=10)
 
@@ -393,10 +393,10 @@ class OracleGUI:
 
     def toggle_llm_web_browser(self):
         if self.llm_web_browser_enabled.get():
-            # Enable the LLM-first Web Browser feature
+            # Enable the LLM Web Browser feature
             self.oracle_interpreter.enable_llm_web_browser()
         else:
-            # Disable the LLM-first Web Browser feature
+            # Disable the LLM Web Browser feature
             self.oracle_interpreter.disable_llm_web_browser()
         
         # Update the system message to reflect the current state of the feature

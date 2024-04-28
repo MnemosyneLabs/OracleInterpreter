@@ -224,8 +224,8 @@ class OracleInterpreter:
 
 
     def enable_llm_web_browser(self):
-        # Implement the logic to enable the LLM-first Web Browser feature
-        print("LLM-first Web Browser feature enabled")
+        # Implement the logic to enable the Web Browser feature
+        print("Web Browser feature enabled")
         
         # Enable the --os option in the interpreter
         self.interpreter.os = True
@@ -233,7 +233,7 @@ class OracleInterpreter:
         # Update the system message to include instructions for web browsing
         self.interpreter.system_message += f"""
 
-        You now have access to the LLM-first Web Browser feature. To use this feature, you can perform web searches using the following syntax:
+        You now have access to the Web Browser feature. To use this feature, you can perform web searches using the following syntax:
 
         self.interpreter.computer.browser.search("search query")
 
@@ -247,14 +247,14 @@ class OracleInterpreter:
         """
 
     def disable_llm_web_browser(self):
-        # Implement the logic to disable the LLM-first Web Browser feature
-        print("LLM-first Web Browser feature disabled")
+        # Implement the logic to disable the Web Browser feature
+        print("Web Browser feature disabled")
         
         # Disable the --os option in the interpreter
         self.interpreter.os = False
         
         # Remove the web browsing instructions from the system message
-        self.interpreter.system_message = self.interpreter.system_message.split("You now have access to the LLM-first Web Browser feature.")[0]
+        self.interpreter.system_message = self.interpreter.system_message.split("You now have access to the LLM Web Browser feature.")[0]
 
     # ...
     # Panopticonomicon
