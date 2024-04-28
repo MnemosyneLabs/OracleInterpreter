@@ -1,0 +1,10 @@
+anthropic
+openai
+python-dotenv
+ttkbootstrap
+Pillow
+pygame
+Pygments
+psutil
+litell
+open-interpreter

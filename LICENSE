@@ -1,0 +1,57 @@
+MIT# License
+
+(derived from the MIT License with additional terms and conditions)
+
+Copyright (c) 2024 Mnemosyne Lab + Azoth Corp
+Copyright (c) 2024 Logan Kirkland (www.LericDax.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software and its original technologies without restriction, including 
+without limitation the rights to use, copy, modify, merge, publish, distribute, 
+sublicense, and/or sell copies of the Software, and to permit persons to whom 
+the Software is furnished to do so, subject to the following conditions:
+
+§ 1. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+§ 2. If the Software or any derivative work is used in a commercial project, credit
+   must be given to Mnemosyne Labs + Azoth Corp (the "Company"), and Logan Kirkland 
+   (the "Original Author") as the original developers of the Software. Credit must 
+   also be given generally to the community (the "Community") of any open source 
+   contributors to the Software, including to the Prompt Engineers Guild (the "Guild").
+
+§ 3. If the Software or any derivative work is used in a commercial project by an entity
+   with yearly untaxed profits over $10 million, a 1.5% royalty on all revenues derived 
+   from the Software must be paid (per annum, in perpetuity) to: the Company (0.5%), 
+   the Original Author (0.5%), and the the Guild (0.5%). Annual payments must be made by December 31st of the same year.
+
+§ 4. If royalties are not paid as stipulated in § 3, retroactive fees will be calculated at 
+   2% per annum on the outstanding balance. Additionally, a penalty fee of $10,000 will be 
+   applied for each year the royalties remain unpaid. Retroactive fees and penalties will be 
+   divided equally among the Company, the Original Author, and the Guild.
+
+§ 5. Azoth Corp / Mnemosyne Labs (the "Company"), Logan Kirkland (the "Original Author"), 
+   and the Prompt Engineers Guild (the "Guild") retain exclusive, individual, and unlimited 
+   rights in perpetuity to use of the Software and its derivatives in commercial projects 
+   without being subject to § 3 or § 4.
+
+§ 6. In the event of a dispute regarding the terms of this license, the parties agree to 
+   resolve it through arbitration in accordance with the American Arbitration Association 
+   (AAA) Commercial Arbitration Rules. The arbitration will take place in San Francisco, California, United States, Earth. A single arbitrator will be appointed to resolve the dispute. The decision of the arbitrator will be final and binding on both parties. Arbitration will be conducted in English. Each party will bear its own costs and fees unless the arbitrator decides otherwise.
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING 
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND 
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, 
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+The Company and the Original Author do not promise a functional or complete project and do not accept any liability for how the Software behaves or is used in theory or practice. The Software is provided as open-source software to be used as you wish, in part or whole, subject to the conditions stated above.
+
+For any questions, suggestions, or feedback, please contact us at legal@azothcorp.com.
+
+Developed by Mnemosyne Labs, a division of Azoth Corp.
+"Coming soon to a world near you..."
+www.AzothCorp.com
+Original project author: Logan Kirkland (www.LericDax.com)
