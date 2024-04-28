@@ -34,7 +34,7 @@ To install and set up Oracle.py, follow these steps:
 1. Clone the repository:
 ```
    ```
-   git clone https://github.com/your-username/oracle.py.git
+   git clone https://github.com/MnemosyneLabs/OracleInterpreter
    ```
 ```
 
