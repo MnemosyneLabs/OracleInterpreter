@@ -581,11 +581,10 @@ class OracleInterpreter:
         
     def perform_web_search(self, search_query):
         # Implement the logic to perform the web search using the LLM
-        # You can use libraries like requests or aiohttp to make HTTP requests
-        # and retrieve the search results from a search engine or web API
         
-        # Example implementation using requests library
-        search_url = f"https://api.example.com/search?q={search_query}"
+        # Example implementation using requests library (rough, probably not correct)
+        query = " "
+        search_url = f"https://www.googleapis.com/customsearch/v1?key={google_api_key}&cx={google_search_engine_id}&q={query}"
         response = requests.get(search_url)
         search_results = response.json()
         
@@ -594,7 +593,6 @@ class OracleInterpreter:
       
     def analyze_search_results(self, search_results):
         # Implement the logic to analyze the search results and generate a response
-        # You can use the LLM to summarize and extract relevant information from the search results
         
         # Example implementation using a simple summary
         response_text = "Here are the relevant search results:\n\n"
