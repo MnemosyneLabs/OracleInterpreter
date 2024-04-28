@@ -1,3 +1,4 @@
+# General ignore rules
 __pycache__/*
 package-lock.json
 *.pyc
@@ -5,7 +6,7 @@ auto_gpt_workspace/*
 *.mpeg
 .env
 outputs/*
-ai_settings.yamlls
+ai_settings.yaml
 
 # Ignore everything inside these directories
 alexandria/*
@@ -17,16 +18,19 @@ oracle_logs/*
 Old/*
 OpenInterpreter/*
 
-# But
-
 # Allow the directories themselves to be tracked
-!alexandria/
-!antikythera/
-!aetherion/
-!athenium/
-!acheron/
-!oracle_logs/
-!Old/
-!OpenInterpreter/
+!alexandria/.gitkeep
+!antikythera/.gitkeep
+!aetherion/.gitkeep
+!athenium/.gitkeep
+!acheron/.gitkeep
+!oracle_logs/.gitkeep
+!Old/.gitkeep
+!OpenInterpreter/.gitkeep
+!OpenInterpreter/data/.gitkeep
+!OpenInterpreter/downloads/.gitkeep
+!OpenInterpreter/logs/.gitkeep
+!OpenInterpreter/output/.gitkeep
+!OpenInterpreter/scripts/.gitkeep
 
-# Additional ignore rules
+# If you need additional rules, add them below
