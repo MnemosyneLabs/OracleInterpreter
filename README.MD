@@ -27,14 +27,18 @@ Oracle.py is an easy-to-use modular interpreter system with an auxiliary GUI. De
 To install and set up Oracle.py, follow these steps:
 
 1. Clone the repository:
+```
    ```
    git clone https://github.com/your-username/oracle.py.git
    ```
+```
 
 2. Install the required dependencies:
+```
    ```
    pip install -r requirements.txt
    ```
+```
 
 3. Set up the API keys:
    - Create a `.env` file in the project root directory.
