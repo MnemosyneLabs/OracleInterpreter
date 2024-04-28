@@ -2,7 +2,12 @@
 
 # Oracle.py
 
-Oracle.py is an easy-to-use modular interpreter system with an auxiliary GUI. Developed by Mnemosyne Labs, a division of Azoth Corp (www.AzothCorp.com), and released as an open source project (subject to LICENSE), Oracle.py provides a powerful and extensible framework for building AI-driven applications, and adding an AI Interpreter module to any project. It also works as a stand alone interpreter system.
+Oracle.py is an easy-to-use modular interpreter system with an auxiliary GUI. 
+Developed by Mnemosyne Labs, a division of Azoth Corp (www.AzothCorp.com), 
+and released as an open source project (subject to LICENSE), Oracle.py 
+provides a powerful and extensible framework for building AI-driven 
+applications, and adding an AI Interpreter module to any project. 
+It also works as a stand alone interpreter system.
 
 
 ## Features
