@@ -235,11 +235,11 @@ class OracleInterpreter:
 
         You now have access to the Web Browser feature. To use this feature, you can perform web searches using the following syntax:
 
-        self.interpreter.computer.browser.search("search query")
+        computer.browser.search("search query")
 
         Replace "search query" with the actual query you want to search for. For example:
 
-        self.interpreter.computer.browser.search("upcoming film festivals near Pike Place, Seattle")
+        computer.browser.search("upcoming film festivals near Pike Place, Seattle")
 
         When a web search is requested, the interpreter will handle the search and provide you with the relevant information. You can then analyze and summarize the information to provide a helpful response to the user.
 
